@@ -1,6 +1,8 @@
 import logo from "../assets/logo.png";
-
+import { useNavigate } from "react-router-dom";
 export default function Login() {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen flex items-center justify-center">
   <div className="w-full max-w-sm flex flex-col items-center gap-6">
@@ -25,7 +27,7 @@ export default function Login() {
       />
     </div>
 
-    <button
+    <button onClick={() => navigate("/home")}
   className="w-full py-3 rounded-xl 
              bg-[#5A43D1] hover:bg-[#4c38b3]
              text-white font-semibold tracking-wide
