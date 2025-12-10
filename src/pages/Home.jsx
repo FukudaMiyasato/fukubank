@@ -25,7 +25,7 @@ useEffect(() => {
   {/* HEADER CON IMAGEN */}
   <div
   id="parallax-bg"
-  className="absolute top-0 left-0 w-full h-[200vh] bg-cover bg-top "
+  className="absolute top-0 left-0 h-[120vh] bg-cover bg-top w-full overflow-hidden  "
   style={{ backgroundImage: `url(${user})` }}
 ></div>
 
