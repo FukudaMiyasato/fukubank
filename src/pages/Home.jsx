@@ -34,7 +34,7 @@ useEffect(() => {
       {/* CABECERA */}
       <div className="text-xl w-[80%] font-bold h-[40vh] relative">
         <div className="absolute bottom-0 left-0 p-2 text-5xl text-white">
-          HOLA, <br/><span className="text-7xl">PEDRO</span>
+          HOLA, <br/><span className="text-7xl">JUANCHO</span>
         </div>
       </div>
         <div className="w-[80%] bg-white/10 backdrop-blur-md rounded-xl p-4">
